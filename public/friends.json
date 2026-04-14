@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Khan",
+    "picture": "https://i.ibb.co.com/MyWXNJHm/man1.jpg",
+    "email": "rahim.khan@email.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["school friend"],
+    "bio": "Childhood friend from Sarankhola school. We used to cycle to the river together and still share stories about village life.",
+    "goal": 14,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 2,
+    "name": "Priya Das",
+    "picture": "https://i.ibb.co.com/LXnyHY4q/Priya-Amer.jpg",
+    "email": "priya.das@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met at Dhaka University. We studied together, shared hostel memories, and bonded over Bengali literature and adda sessions.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Arjun Sharma",
+    "picture": "https://i.ibb.co.com/rG7HJ6TB/man.jpg",
+    "email": "arjun.sharma@outlook.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["work", "colleague"],
+    "bio": "Former colleague from an IT project in Dhaka. We often discuss tech trends and dream of starting a startup together.",
+    "goal": 21,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Jaya Ahsan",
+    "picture": "https://i.ibb.co.com/3yzjgdWj/image-3.jpg",
+    "email": "fatema.begum@yahoo.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["family friend"],
+    "bio": "Known since childhood family gatherings in Khulna. She feels like an elder sister — we talk about life, marriage, and family recipes.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 5,
+    "name": "Sohail Ahmed",
+    "picture": "https://i.ibb.co.com/q316n9X7/man3-1.jpg",
+    "email": "sohail.ahmed@live.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["university", "cricket buddy"],
+    "bio": "University friend from BUET. We played cricket on the field and still argue about Bangladesh vs India matches.",
+    "goal": 7,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 6,
+    "name": "Mehazabien Chowdhury",
+    "picture": "https://i.ibb.co.com/nqpCvbrD/images-3.jpg",
+    "email": "mehazabien.chowdhury@gmail.com",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": ["travel", "adventure"],
+    "bio": "Met during a group trip to Cox's Bazar. We love exploring new places and sharing travel photos and stories.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 7,
+    "name": "Nihal Khan",
+    "picture": "https://i.ibb.co.com/fdkmRfDH/man-6.jpg",
+    "email": "nihal.khan@protonmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["gym"],
+    "bio": "Local friend from the same area in Khulna. We go to the gym together and motivate each other to stay fit.",
+    "goal": 10,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 8,
+    "name": "Purnima",
+    "picture": "https://i.ibb.co.com/fV7C2hsM/images-2.jpg",
+    "email": "purnima@email.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["online friend", "hobby"],
+    "bio": "Connected through a book reading group. We discuss Bengali and Indian novels and occasionally meet in Dhaka.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 9,
+    "name": "Shakib Rahman",
+    "picture": "https://i.ibb.co.com/Ldv1w8D0/man5-1.jpg",
+    "email": "shakib.rahman@icloud.com",
+    "days_since_contact": 19,
+    "status": "overdue",
+    "tags": ["school", "best friend"],
+    "bio": "Best friend since high school in Barisal. We share everything — from career struggles to family joys.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 10,
+    "name": "Sadia Islam",
+    "picture": "https://i.ibb.co.com/20c1LCqg/iamge-5.jpg",
+    "email": "sadia.islam@yahoo.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["college", "roommate"],
+    "bio": "College roommate in Dhaka. We survived exam nights with endless gossip about classmates.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  }
+]
