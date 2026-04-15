@@ -6,6 +6,8 @@ import { PiBellSimpleZBold, PiPhoneCallFill, PiVideoCameraBold } from 'react-ico
 
 const AllFriends = async () => {
     const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json');
+
+    // const res = await fetch('http://localhost:3000/friends.json')
     const allFriends = await res.json();
     return allFriends;
 };
