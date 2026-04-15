@@ -9,7 +9,7 @@
     "tags": ["school friend"],
     "bio": "Childhood friend from Sarankhola school. We used to cycle to the river together and still share stories about village life.",
     "goal": 14,
-    "next_due_date": "2026-04-05"
+    "next_due_date": "Apr 05, 2026"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "tags": ["college", "close friend"],
     "bio": "Met at Dhaka University. We studied together, shared hostel memories, and bonded over Bengali literature and adda sessions.",
     "goal": 10,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "Apr 18, 2026"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "tags": ["work", "colleague"],
     "bio": "Former colleague from an IT project in Dhaka. We often discuss tech trends and dream of starting a startup together.",
     "goal": 21,
-    "next_due_date": "2026-04-10"
+    "next_due_date": "Apr 10, 2026"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tags": ["family friend"],
     "bio": "Known since childhood family gatherings in Khulna. She feels like an elder sister — we talk about life, marriage, and family recipes.",
     "goal": 10,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "Apr 16, 2026"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "tags": ["university", "cricket buddy"],
     "bio": "University friend from BUET. We played cricket on the field and still argue about Bangladesh vs India matches.",
     "goal": 7,
-    "next_due_date": "2026-04-17"
+    "next_due_date": "Apr 17, 2026"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "tags": ["travel", "adventure"],
     "bio": "Met during a group trip to Cox's Bazar. We love exploring new places and sharing travel photos and stories.",
     "goal": 14,
-    "next_due_date": "2026-03-25"
+    "next_due_date": "Mar 25, 2026"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["gym"],
     "bio": "Local friend from the same area in Khulna. We go to the gym together and motivate each other to stay fit.",
     "goal": 10,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "Apr 15, 2026"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "tags": ["online friend", "hobby"],
     "bio": "Connected through a book reading group. We discuss Bengali and Indian novels and occasionally meet in Dhaka.",
     "goal": 7,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "Apr 19, 2026"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "tags": ["school", "best friend"],
     "bio": "Best friend since high school in Barisal. We share everything — from career struggles to family joys.",
     "goal": 14,
-    "next_due_date": "2026-04-08"
+    "next_due_date": "Apr 08, 2026"
   },
   {
     "id": 10,
@@ -117,6 +117,6 @@
     "tags": ["college", "roommate"],
     "bio": "College roommate in Dhaka. We survived exam nights with endless gossip about classmates.",
     "goal": 10,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "Apr 16, 2026"
   }
 ]

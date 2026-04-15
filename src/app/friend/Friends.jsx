@@ -4,7 +4,7 @@ import FriendsCard from './FriendsCard';
 const Friends = async() => {
     const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json');
     const friends = await res.json();
-    console.log(friends);
+    
     return (
         <>
             <h4 className='text-2xl text-gray-800 font-semibold mt-6'>Your Friends</h4>

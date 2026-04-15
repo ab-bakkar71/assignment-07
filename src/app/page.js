@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
-import Friends from "./components/Friends";
+import Friends from "./friend/Friends";
+
 
 export default function Home() {
   return (
