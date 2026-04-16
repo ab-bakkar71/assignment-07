@@ -4,10 +4,6 @@ import React, { createContext, useState } from 'react';
 
 export const TimelineContext = createContext();
 
-console.log(TimelineContext);
-
-
-
 const TimelineProvider = ({ children }) => {
     const [timeline, setTimeline] = useState([]);
 
