@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import { BiSolidMessageDots } from 'react-icons/bi';
+
 import { FiArchive, FiTrash } from 'react-icons/fi';
-import { PiBellSimpleZBold, PiPhoneCallFill, PiVideoCameraBold } from 'react-icons/pi';
+import { PiBellSimpleZBold} from 'react-icons/pi';
+import QuickCheckIn from './QuickCheckIn';
 
 const AllFriends = async () => {
-    const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json');
-
-    // const res = await fetch('http://localhost:3000/friends.json')
+    // const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json',{ cache: "no-store" })
+    const res = await fetch('http://localhost:3000//friends.json')
     const allFriends = await res.json();
     return allFriends;
 };
@@ -88,20 +88,7 @@ const friendDetails = async ({ params }) => {
                </div>
 
                {/* Quick Check-In */}
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-gray-700 font-medium bg-white mt-6 p-6 rounded-lg shadow-sm'>
-                    <button className="p-6 rounded-xl cursor-pointer flex flex-col items-center gap-2 bg-slate-50 shadow-sm  border border-neutral-200 hover:bg-transparent">
-                <PiPhoneCallFill className="text-3xl" />
-                Call
-              </button>
-                    <button className="p-6 rounded-xl cursor-pointer flex flex-col items-center gap-2 bg-slate-50 shadow-sm  border border-neutral-200 hover:bg-transparent">
-                <BiSolidMessageDots className="text-3xl" />
-                Text
-              </button>
-                    <button className="p-6 rounded-xl cursor-pointer flex flex-col items-center gap-2 bg-slate-50 shadow-sm  border border-neutral-200 hover:bg-transparent">
-                <PiVideoCameraBold className="text-3xl" />
-                Video
-              </button>
-                </div>
+                <QuickCheckIn friend={friend}/>
 
             </section>
         </div>
