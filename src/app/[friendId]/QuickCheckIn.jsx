@@ -16,7 +16,7 @@ const QuickCheckIn = ({friend}) => {
 
       toast.success(`${type === 'Call' ? 'call' : type === 'Text' ? 'texted' : 'video'} with ${friend.name}`,
       {
-        position: "top-right",
+        position: "top-center",
       });
       btnActivity(type, friend.name);
     }

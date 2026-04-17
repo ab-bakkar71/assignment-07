@@ -1,14 +1,21 @@
 "use client"
-import React from 'react';
+import { TimelineContext } from '@/context/Timeline.Context';
+import React, { use, useContext } from 'react';
 import { Legend, Pie, PieChart, Tooltip } from 'recharts';
 
 
 const StatsPage = () => {
 
+    const timelineStats = useContext(TimelineContext);
+
+    const callCount = timelineStats.timeline.filter(item => item.type === "Call").length;
+    const textCount = timelineStats.timeline.filter(item => item.type === "Text").length;
+    const videoCount = timelineStats.timeline.filter(item => item.type === "Video").length;
+
     const data = [
-        { name: 'Text', value: 400, fill: '#7f37f5' },
-        { name: 'Call', value: 300, fill: '#244d3f' },
-        { name: 'Video', value: 300, fill: '#37a163' },
+        { name: 'Text', value: textCount, fill: '#7f37f5' },
+        { name: 'Call', value: callCount, fill: '#244d3f' },
+        { name: 'Video', value: videoCount, fill: '#37a163' },
         
     ];
     return (
