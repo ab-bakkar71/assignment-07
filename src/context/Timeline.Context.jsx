@@ -8,6 +8,8 @@ const TimelineProvider = ({ children }) => {
     const [timeline, setTimeline] = useState([]);
 
 
+
+
     const btnActivity = (type, name) => {
         const newActivity = {
             id: Date.now(),

@@ -6,8 +6,8 @@ import { PiBellSimpleZBold} from 'react-icons/pi';
 import QuickCheckIn from './QuickCheckIn';
 
 const AllFriends = async () => {
-    // const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json',{ cache: "no-store" })
-    const res = await fetch('http://localhost:3000//friends.json')
+    const res = await fetch('https://assignment-07-keenkeeper.vercel.app/friends.json')
+    // const res = await fetch('http://localhost:3000//friends.json')
     const allFriends = await res.json();
     return allFriends;
 };

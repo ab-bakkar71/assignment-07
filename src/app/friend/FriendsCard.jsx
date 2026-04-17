@@ -5,8 +5,8 @@ import React from 'react';
 const FriendsCard = ({ friend }) => {
   return (
     <>
-      <Link href={`/${friend.id}`}>
-        <div className="card bg-base-100 shadow-sm">
+      <Link className='hover-3d' href={`/${friend.id}`}>
+        <div className="card shadow-sm">
           <figure className="px-10 pt-10">
             <Image
               src={friend.picture}
@@ -30,6 +30,8 @@ const FriendsCard = ({ friend }) => {
             <div className={`text-white px-2 py-1 rounded-full ${friend.status === 'almost due' ? 'bg-red-500' : ''} ${friend.status === 'overdue' ? 'bg-amber-500' : 'bg-emerald-900'}`}>{friend.status}</div>
           </div>
         </div>
+
+       
       </Link>
     </>
   );
