@@ -10,13 +10,27 @@ import { RiHome2Line } from "react-icons/ri";
 
 const NavLink = () => {
 
-    const pathName= usePathname()
+    const pathName = usePathname()
 
     return (
         <>
-           <Link href="/" className={`btn btn-ghost ${pathName === "/" ? "bg-emerald-900 text-white" : ""}`}><RiHome2Line />Home</Link>
-           <Link href="/timeline" className={`btn btn-ghost ${pathName === "/timeline"? "bg-emerald-900 text-white": ""}`}><IoTimeOutline />Timeline</Link>
-           <Link href="/stats" className={`btn btn-ghost ${pathName === "/stats" ? "bg-emerald-900 text-white" : ""}`}><PiChartLineThin />Stats</Link>
+            <Link href="/" className={`btn btn-ghost ${pathName === "/" ? "bg-emerald-900 text-white" : ""}`}>
+                <RiHome2Line /> Home
+            </Link>
+
+            <Link
+                href="/timeline"
+                className={`btn btn-ghost ${pathName === "/timeline" ? "bg-emerald-900 text-white" : ""}`}
+            >
+                <IoTimeOutline /> Timeline
+            </Link>
+
+            <Link
+                href="/stats"
+                className={`btn btn-ghost ${pathName === "/stats" ? "bg-emerald-900 text-white" : ""}`}
+            >
+                <PiChartLineThin /> Stats
+            </Link>
         </>
     );
 };
