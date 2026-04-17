@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KeenKeeper 👥
 
-## Getting Started
+KeenKeeper is a **friends tracking tool** designed to help you nurture meaningful connections. It allows you to manage, track, and analyze your friendships in a simple and interactive way.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📝 Project Overview
+KeenKeeper makes it easy to stay connected with the people who matter most. With features like friend detail pages, interaction tracking, and timeline filtering, you’ll never lose touch again.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Technologies Used
+- **Next.js**
+- **Tailwind CSS** & **DaisyUI**
+- **JavaScript (ES6+)**
+- **React-Toastify (NPM Package)**
+- **JSON** (for friend data)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌟 Features
+1. **Interactive Navbar & Routing**  
+   - Clean navigation with Home, Timeline, and Stats.  
+   - Error handling with a beautiful 404 page for wrong routes.  
 
-To learn more about Next.js, take a look at the following resources:
+2. **Friend Detail Cards**  
+   - Friends loaded dynamically from JSON data.  
+   - Clicking a card shows detailed information with options to Call, Text, or Video.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Timeline Tracking**  
+   - Every interaction (call, text, video) is logged in the Timeline.  
+   - Real-time date and time display.  
+   - Filter interactions by type.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Toast Notifications**  
+   - Shows instant feedback like *“Text with Purnima”* when actions are triggered.  
 
-## Deploy on Vercel
+5. **Stats & Analytics**  
+   - Status Pie Chart to visualize interaction types.  
+   - Summary of friends on track, overdue, or needing attention.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. **Loading Spinner**  
+   - Smooth loading experience while data is fetched.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔗 Links
+- **GitHub Repository:** [https://github.com/ab-bakkar71/assignment-07](https://github.com/ab-bakkar71/assignment-07)  
+- **Live Site:** [https://assignment-07-keenkeeper.vercel.app/](https://assignment-07-keenkeeper.vercel.app/)
